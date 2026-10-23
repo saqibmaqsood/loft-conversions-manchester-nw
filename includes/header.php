@@ -119,14 +119,8 @@ try {
 <!-- Main Clean Header (Bayford Lofts Style: Clear, Airy, Easy to Navigate) -->
 <header class="site-header">
   <div class="header-inner">
-    <a href="<?php echo $homeHref; ?>" class="brand-link" style="display:flex;align-items:center;gap:12px;text-decoration:none;" aria-label="Loft Conversions Manchester NW Homepage">
-      <span style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg, #6B21A8, #8B5CF6);color:#FFFFFF;box-shadow:0 3px 10px rgba(107,33,168,0.28);flex-shrink:0;">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-      </span>
-      <div style="display:flex;flex-direction:column;line-height:1.15">
-        <span style="font-family:var(--font-sans);font-size:17.5px;font-weight:800;color:var(--color-dark);letter-spacing:-0.02em;">Loft Conversions</span>
-        <span style="font-family:var(--font-mono);font-size:10.5px;font-weight:700;color:#6B21A8;letter-spacing:0.12em;text-transform:uppercase;">Manchester NW</span>
-      </div>
+    <a href="<?php echo $homeHref; ?>" class="brand-link" aria-label="Loft Conversions Manchester NW Homepage">
+      <img src="images/logo.png" alt="Loft Conversions Manchester NW" style="height:44px;width:auto;display:block;max-width:240px;object-fit:contain">
     </a>
 
     <!-- Primary Desktop Navigation with Full-Width Bayford Dropdowns -->

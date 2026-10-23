@@ -39,6 +39,26 @@
   text-decoration: none;
 }
 
+.brand-link img {
+  height: 44px;
+  width: auto;
+  max-width: 240px;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.brand-link:hover img {
+  transform: scale(1.02);
+}
+
+@media (max-width: 640px) {
+  .brand-link img {
+    height: 38px;
+    max-width: 190px;
+  }
+}
+
 .brand-icon {
   width: 32px;
   height: 32px;

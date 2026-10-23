@@ -32,7 +32,7 @@ $badges = ['VELUX Certified', 'Gas Safe', 'NIC EIC', 'Checkatrade'];
     <div class="footer-grid">
       <div class="footer-col">
         <a href="index.php" style="display:inline-block;margin-bottom:16px" aria-label="Loft Conversions Manchester NW Home">
-          <img src="images/logo.png" alt="Loft Conversions Manchester NW" style="height:44px;width:auto;display:block;max-width:220px;object-fit:contain">
+          <img src="images/logo-white.png" alt="Loft Conversions Manchester NW" style="height:46px;width:auto;display:block;max-width:240px;object-fit:contain">
         </a>
         <p style="margin:0 0 12px;font-size:14px;line-height:1.7;color:#B8B8B0">Premier Architectural Loft Specialists throughout Greater Manchester, Cheshire &amp; North West</p>
         <a href="tel:01614100155" class="footer-phone-main" style="color:#29ABE2">0161 4100155</a>
